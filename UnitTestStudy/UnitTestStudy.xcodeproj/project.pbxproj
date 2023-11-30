@@ -17,6 +17,9 @@
 		B81308542B18568D00338919 /* UnitTestStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81308532B18568D00338919 /* UnitTestStudyUITests.swift */; };
 		B81308562B18568D00338919 /* UnitTestStudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81308552B18568D00338919 /* UnitTestStudyUITestsLaunchTests.swift */; };
 		B81308632B18569800338919 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81308622B18569800338919 /* Calculator.swift */; };
+		B81308652B18EDCF00338919 /* LoginValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81308642B18EDCF00338919 /* LoginValidatorTests.swift */; };
+		B81308682B18F49400338919 /* LoginValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81308672B18F49400338919 /* LoginValidator.swift */; };
+		B813086D2B18F74400338919 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B813086C2B18F74400338919 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		B81308532B18568D00338919 /* UnitTestStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestStudyUITests.swift; sourceTree = "<group>"; };
 		B81308552B18568D00338919 /* UnitTestStudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestStudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B81308622B18569800338919 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		B81308642B18EDCF00338919 /* LoginValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidatorTests.swift; sourceTree = "<group>"; };
+		B81308672B18F49400338919 /* LoginValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidator.swift; sourceTree = "<group>"; };
+		B813086C2B18F74400338919 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,8 @@
 		B81308312B18568A00338919 /* UnitTestStudy */ = {
 			isa = PBXGroup;
 			children = (
+				B813086B2B18F73E00338919 /* Model */,
+				B81308662B18F46D00338919 /* Class */,
 				B81308322B18568A00338919 /* AppDelegate.swift */,
 				B81308342B18568A00338919 /* SceneDelegate.swift */,
 				B81308362B18568A00338919 /* ViewController.swift */,
@@ -108,7 +116,6 @@
 				B813083B2B18568C00338919 /* Assets.xcassets */,
 				B813083D2B18568C00338919 /* LaunchScreen.storyboard */,
 				B81308402B18568C00338919 /* Info.plist */,
-				B81308622B18569800338919 /* Calculator.swift */,
 			);
 			path = UnitTestStudy;
 			sourceTree = "<group>";
@@ -117,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				B81308492B18568C00338919 /* UnitTestStudyTests.swift */,
+				B81308642B18EDCF00338919 /* LoginValidatorTests.swift */,
 			);
 			path = UnitTestStudyTests;
 			sourceTree = "<group>";
@@ -128,6 +136,23 @@
 				B81308552B18568D00338919 /* UnitTestStudyUITestsLaunchTests.swift */,
 			);
 			path = UnitTestStudyUITests;
+			sourceTree = "<group>";
+		};
+		B81308662B18F46D00338919 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				B81308622B18569800338919 /* Calculator.swift */,
+				B81308672B18F49400338919 /* LoginValidator.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		B813086B2B18F73E00338919 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B813086C2B18F74400338919 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +288,10 @@
 			files = (
 				B81308372B18568A00338919 /* ViewController.swift in Sources */,
 				B81308632B18569800338919 /* Calculator.swift in Sources */,
+				B813086D2B18F74400338919 /* User.swift in Sources */,
 				B81308332B18568A00338919 /* AppDelegate.swift in Sources */,
 				B81308352B18568A00338919 /* SceneDelegate.swift in Sources */,
+				B81308682B18F49400338919 /* LoginValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B81308652B18EDCF00338919 /* LoginValidatorTests.swift in Sources */,
 				B813084A2B18568C00338919 /* UnitTestStudyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
