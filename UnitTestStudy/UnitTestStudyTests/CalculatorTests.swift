@@ -1,6 +1,6 @@
 //
-//  UnitTestStudyTests.swift
-//  UnitTestStudyTests
+//  CalculatorTests.swift
+//  CalculatorTests
 //
 //  Created by 김영빈 on 2023/11/30.
 //
@@ -10,7 +10,7 @@ import XCTest
 // 해당 모듈에 접근하여 멤버인 메서드들을 사용하게 도와주는 키워드
 @testable import UnitTestStudy
 
-final class UnitTestStudyTests: XCTestCase {
+final class CalculatorTests: XCTestCase {
 
     private var calculator: Calculator!
 
