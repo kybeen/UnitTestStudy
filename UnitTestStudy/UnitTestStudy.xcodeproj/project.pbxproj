@@ -9,17 +9,15 @@
 /* Begin PBXBuildFile section */
 		B81308332B18568A00338919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81308322B18568A00338919 /* AppDelegate.swift */; };
 		B81308352B18568A00338919 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81308342B18568A00338919 /* SceneDelegate.swift */; };
-		B81308372B18568A00338919 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81308362B18568A00338919 /* ViewController.swift */; };
-		B813083A2B18568A00338919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B81308382B18568A00338919 /* Main.storyboard */; };
 		B813083C2B18568C00338919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B813083B2B18568C00338919 /* Assets.xcassets */; };
-		B813083F2B18568C00338919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B813083D2B18568C00338919 /* LaunchScreen.storyboard */; };
 		B813084A2B18568C00338919 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81308492B18568C00338919 /* CalculatorTests.swift */; };
-		B81308542B18568D00338919 /* UnitTestStudyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81308532B18568D00338919 /* UnitTestStudyUITests.swift */; };
-		B81308562B18568D00338919 /* UnitTestStudyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81308552B18568D00338919 /* UnitTestStudyUITestsLaunchTests.swift */; };
 		B81308632B18569800338919 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81308622B18569800338919 /* Calculator.swift */; };
 		B81308652B18EDCF00338919 /* LoginValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81308642B18EDCF00338919 /* LoginValidatorTests.swift */; };
 		B81308682B18F49400338919 /* LoginValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81308672B18F49400338919 /* LoginValidator.swift */; };
 		B813086D2B18F74400338919 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B813086C2B18F74400338919 /* User.swift */; };
+		B8A323022B26E59F0031D4D3 /* SignUpView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8A323012B26E59F0031D4D3 /* SignUpView.storyboard */; };
+		B8A323042B26E5C00031D4D3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A323032B26E5C00031D4D3 /* SignUpViewController.swift */; };
+		B8A323152B26EBDC0031D4D3 /* SignUpFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A323142B26EBDC0031D4D3 /* SignUpFlowUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +28,7 @@
 			remoteGlobalIDString = B813082E2B18568A00338919;
 			remoteInfo = UnitTestStudy;
 		};
-		B81308502B18568D00338919 /* PBXContainerItemProxy */ = {
+		B8A3230F2B26EB0A0031D4D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B81308272B18568A00338919 /* Project object */;
 			proxyType = 1;
@@ -43,20 +41,18 @@
 		B813082F2B18568A00338919 /* UnitTestStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTestStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81308322B18568A00338919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B81308342B18568A00338919 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B81308362B18568A00338919 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B81308392B18568A00338919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B813083B2B18568C00338919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B813083E2B18568C00338919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B81308402B18568C00338919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B81308452B18568C00338919 /* UnitTestStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81308492B18568C00338919 /* CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTests.swift; sourceTree = "<group>"; };
-		B813084F2B18568D00338919 /* UnitTestStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B81308532B18568D00338919 /* UnitTestStudyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestStudyUITests.swift; sourceTree = "<group>"; };
-		B81308552B18568D00338919 /* UnitTestStudyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestStudyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B81308622B18569800338919 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		B81308642B18EDCF00338919 /* LoginValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidatorTests.swift; sourceTree = "<group>"; };
 		B81308672B18F49400338919 /* LoginValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidator.swift; sourceTree = "<group>"; };
 		B813086C2B18F74400338919 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B8A323012B26E59F0031D4D3 /* SignUpView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpView.storyboard; sourceTree = "<group>"; };
+		B8A323032B26E5C00031D4D3 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B8A323092B26EB0A0031D4D3 /* UnitTestStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8A323142B26EBDC0031D4D3 /* SignUpFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFlowUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +70,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B813084C2B18568D00338919 /* Frameworks */ = {
+		B8A323062B26EB0A0031D4D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -89,7 +85,7 @@
 			children = (
 				B81308312B18568A00338919 /* UnitTestStudy */,
 				B81308482B18568C00338919 /* UnitTestStudyTests */,
-				B81308522B18568D00338919 /* UnitTestStudyUITests */,
+				B8A3230A2B26EB0A0031D4D3 /* UnitTestStudyUITests */,
 				B81308302B18568A00338919 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,7 +95,7 @@
 			children = (
 				B813082F2B18568A00338919 /* UnitTestStudy.app */,
 				B81308452B18568C00338919 /* UnitTestStudyTests.xctest */,
-				B813084F2B18568D00338919 /* UnitTestStudyUITests.xctest */,
+				B8A323092B26EB0A0031D4D3 /* UnitTestStudyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,11 +107,10 @@
 				B81308662B18F46D00338919 /* Class */,
 				B81308322B18568A00338919 /* AppDelegate.swift */,
 				B81308342B18568A00338919 /* SceneDelegate.swift */,
-				B81308362B18568A00338919 /* ViewController.swift */,
-				B81308382B18568A00338919 /* Main.storyboard */,
 				B813083B2B18568C00338919 /* Assets.xcassets */,
-				B813083D2B18568C00338919 /* LaunchScreen.storyboard */,
 				B81308402B18568C00338919 /* Info.plist */,
+				B8A323012B26E59F0031D4D3 /* SignUpView.storyboard */,
+				B8A323032B26E5C00031D4D3 /* SignUpViewController.swift */,
 			);
 			path = UnitTestStudy;
 			sourceTree = "<group>";
@@ -127,15 +122,6 @@
 				B81308642B18EDCF00338919 /* LoginValidatorTests.swift */,
 			);
 			path = UnitTestStudyTests;
-			sourceTree = "<group>";
-		};
-		B81308522B18568D00338919 /* UnitTestStudyUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B81308532B18568D00338919 /* UnitTestStudyUITests.swift */,
-				B81308552B18568D00338919 /* UnitTestStudyUITestsLaunchTests.swift */,
-			);
-			path = UnitTestStudyUITests;
 			sourceTree = "<group>";
 		};
 		B81308662B18F46D00338919 /* Class */ = {
@@ -153,6 +139,14 @@
 				B813086C2B18F74400338919 /* User.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B8A3230A2B26EB0A0031D4D3 /* UnitTestStudyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B8A323142B26EBDC0031D4D3 /* SignUpFlowUITests.swift */,
+			);
+			path = UnitTestStudyUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,22 +187,22 @@
 			productReference = B81308452B18568C00338919 /* UnitTestStudyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B813084E2B18568D00338919 /* UnitTestStudyUITests */ = {
+		B8A323082B26EB0A0031D4D3 /* UnitTestStudyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B813085F2B18568D00338919 /* Build configuration list for PBXNativeTarget "UnitTestStudyUITests" */;
+			buildConfigurationList = B8A323112B26EB0A0031D4D3 /* Build configuration list for PBXNativeTarget "UnitTestStudyUITests" */;
 			buildPhases = (
-				B813084B2B18568D00338919 /* Sources */,
-				B813084C2B18568D00338919 /* Frameworks */,
-				B813084D2B18568D00338919 /* Resources */,
+				B8A323052B26EB0A0031D4D3 /* Sources */,
+				B8A323062B26EB0A0031D4D3 /* Frameworks */,
+				B8A323072B26EB0A0031D4D3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B81308512B18568D00338919 /* PBXTargetDependency */,
+				B8A323102B26EB0A0031D4D3 /* PBXTargetDependency */,
 			);
 			name = UnitTestStudyUITests;
 			productName = UnitTestStudyUITests;
-			productReference = B813084F2B18568D00338919 /* UnitTestStudyUITests.xctest */;
+			productReference = B8A323092B26EB0A0031D4D3 /* UnitTestStudyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -228,7 +222,7 @@
 						CreatedOnToolsVersion = 15.0;
 						TestTargetID = B813082E2B18568A00338919;
 					};
-					B813084E2B18568D00338919 = {
+					B8A323082B26EB0A0031D4D3 = {
 						CreatedOnToolsVersion = 15.0;
 						TestTargetID = B813082E2B18568A00338919;
 					};
@@ -249,7 +243,7 @@
 			targets = (
 				B813082E2B18568A00338919 /* UnitTestStudy */,
 				B81308442B18568C00338919 /* UnitTestStudyTests */,
-				B813084E2B18568D00338919 /* UnitTestStudyUITests */,
+				B8A323082B26EB0A0031D4D3 /* UnitTestStudyUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,9 +253,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B813083F2B18568C00338919 /* LaunchScreen.storyboard in Resources */,
 				B813083C2B18568C00338919 /* Assets.xcassets in Resources */,
-				B813083A2B18568A00338919 /* Main.storyboard in Resources */,
+				B8A323022B26E59F0031D4D3 /* SignUpView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +265,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B813084D2B18568D00338919 /* Resources */ = {
+		B8A323072B26EB0A0031D4D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -286,7 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B81308372B18568A00338919 /* ViewController.swift in Sources */,
+				B8A323042B26E5C00031D4D3 /* SignUpViewController.swift in Sources */,
 				B81308632B18569800338919 /* Calculator.swift in Sources */,
 				B813086D2B18F74400338919 /* User.swift in Sources */,
 				B81308332B18568A00338919 /* AppDelegate.swift in Sources */,
@@ -304,12 +297,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B813084B2B18568D00338919 /* Sources */ = {
+		B8A323052B26EB0A0031D4D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B81308562B18568D00338919 /* UnitTestStudyUITestsLaunchTests.swift in Sources */,
-				B81308542B18568D00338919 /* UnitTestStudyUITests.swift in Sources */,
+				B8A323152B26EBDC0031D4D3 /* SignUpFlowUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,31 +313,12 @@
 			target = B813082E2B18568A00338919 /* UnitTestStudy */;
 			targetProxy = B81308462B18568C00338919 /* PBXContainerItemProxy */;
 		};
-		B81308512B18568D00338919 /* PBXTargetDependency */ = {
+		B8A323102B26EB0A0031D4D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B813082E2B18568A00338919 /* UnitTestStudy */;
-			targetProxy = B81308502B18568D00338919 /* PBXContainerItemProxy */;
+			targetProxy = B8A3230F2B26EB0A0031D4D3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B81308382B18568A00338919 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B81308392B18568A00338919 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B813083D2B18568C00338919 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B813083E2B18568C00338919 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B81308572B18568D00338919 /* Debug */ = {
@@ -478,8 +451,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UnitTestStudy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = SignUpView;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -506,8 +478,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UnitTestStudy/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = SignUpView;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -563,10 +534,9 @@
 			};
 			name = Release;
 		};
-		B81308602B18568D00338919 /* Debug */ = {
+		B8A323122B26EB0A0031D4D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RCM87YWJ79;
@@ -581,10 +551,9 @@
 			};
 			name = Debug;
 		};
-		B81308612B18568D00338919 /* Release */ = {
+		B8A323132B26EB0A0031D4D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RCM87YWJ79;
@@ -629,11 +598,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B813085F2B18568D00338919 /* Build configuration list for PBXNativeTarget "UnitTestStudyUITests" */ = {
+		B8A323112B26EB0A0031D4D3 /* Build configuration list for PBXNativeTarget "UnitTestStudyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B81308602B18568D00338919 /* Debug */,
-				B81308612B18568D00338919 /* Release */,
+				B8A323122B26EB0A0031D4D3 /* Debug */,
+				B8A323132B26EB0A0031D4D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

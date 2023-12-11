@@ -60,7 +60,7 @@ final class LoginValidatorTests: XCTestCase {
         }
 
         // Arrange
-        let user = User(email: "kybeen@email.com", password: "123456")
+        let user = User(email: "kybeen@email.com", password: "1234")
 
         // Action
         let isValidPassword = sut.isValidPassword(password: user.password)
